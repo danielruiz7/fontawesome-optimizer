@@ -1,8 +1,8 @@
 ## Introduction
 
-So you use [fontawesome](https://fontawesome.com/) icons in your project but there is a problem: fontawesome-all.js size is too much. 
+So you use some [fontawesome](https://fontawesome.com/) icons in your project but there is a problem: fontawesome-all.js size is 3MB (too much). 
 
-With this node.js program you can generate an optimized version of fontawesome.js with only the icons used in your project.
+With this node.js program you can generate an optimized version of fontawesome.js with only the icons use in your project.
 
 ## Usage
 
