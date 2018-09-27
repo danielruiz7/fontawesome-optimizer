@@ -1,0 +1,13 @@
+{
+  "name": "fontawesome-optimizer",
+  "version": "1.0.0",
+  "description": "Build fontawesome.js with only the icons you need",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["fontawesome", "javascript", "node", "optimizer"],
+  "author": "Daniel Ruiz",
+  "license": "MIT"
+}
