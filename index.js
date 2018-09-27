@@ -66,7 +66,7 @@ const findIcons = function (dir) {
 
 findIcons(projectDirectory);
 
-fs.copyFileSync('all.js', outputFile);
+fs.copyFileSync('./fontawesome/all.js', outputFile);
 
 let data = fs.readFileSync(outputFile, 'utf8');
 let result = data.replace(/fabfab/g, `var icons = ${JSON.stringify(iconList.fab)}`);
