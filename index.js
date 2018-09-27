@@ -1,10 +1,10 @@
 const path = require('path');
 const fs = require('fs');
 
-const fabIcons = require('./fab');
-const falIcons = require('./fal');
-const farIcons = require('./far');
-const fasIcons = require('./fas');
+const fabIcons = require('./fontawesome/fab');
+const falIcons = require('./fontawesome/fal');
+const farIcons = require('./fontawesome/far');
+const fasIcons = require('./fontawesome/fas');
 
 if (process.argv.length < 4) {
   console.log('Wrong format. Use: node index.js path_to_project_dir path_to_output_file');
