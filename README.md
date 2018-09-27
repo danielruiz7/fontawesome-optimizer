@@ -12,4 +12,8 @@ Run
 node index.js path_to_your_project_directory path_to_output_file
 ```
 
-The script will iterate over the .html files in your project looking for icons in the format <i class="faX fa-XXX"></i>, then it will generate a file with only thoose icons.
+The script will iterate over the .html files in your project looking for icons in the format 
+```
+<i class="faX fa-XXX"></i>
+``` 
+then it will generate a file with only thoose icons.
